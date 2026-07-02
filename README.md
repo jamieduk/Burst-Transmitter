@@ -58,7 +58,7 @@
 - transmit.sh
   Sends a file via WAV audio burst
 
-- receiver-burst.sh
+- receive.sh
   Receives WAV audio and reconstructs original file
 
 ---
@@ -69,3 +69,5 @@
 
 ```bash
 ./transmit.sh test.txt
+
+./recieve.sh

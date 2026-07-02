@@ -1,0 +1,51 @@
+Burst-Transmitter By (c) J~Net 2026
+
+
+
+./transmit.sh "input-file.txt"
+
+
+./receive.sh "input.wav"
+  
+ 
+# Rate Options
+Baud	Bits/sec	Bytes/sec	1 sec burst
+56	56	~7 B/s	useless for data
+1200	1200	~150 B/s	small payload
+2400	2400	~300 B/s	usable burst     * Default!!!
+4800	4800	~600 B/s	fast audio modem
+9600	9600	~1.2 KB/s	unstable but fast
+
+
+
+🧠 What you now have
+✔ Framing system
+START::  [payload]  ::END
+✔ Basic error tolerance
+sender repeats packet twice
+receiver naturally ignores duplicates due to same payload
+✔ File-safe transport
+base64 ensures binary-safe transmission
+⚡ What this effectively becomes
+
+You now have a:
+
+mini audio packet network layer
+
+🚀 Next upgrades (if you want to push this further)
+
+I can extend this into:
+
+🔒 AES encrypted bursts
+📦 chunked file streaming (multi-WAV large files)
+🔁 ACK / retransmission system (like TCP over audio)
+🧾 checksum validation (SHA256 per burst)
+📡 multi-tone faster encoding (beyond minimodem limits)
+
+Just say and we can turn this into a full “audio network stack” rather than just scripts.
+
+
+
+
+
+

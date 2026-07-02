@@ -70,4 +70,6 @@
 ```bash
 ./transmit.sh test.txt
 
-./recieve.sh
+./receive.sh "burst_max.wav"
+
+

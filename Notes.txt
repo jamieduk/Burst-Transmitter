@@ -1,9 +1,9 @@
 Burst-Transmitter By (c) J~Net 2026
 
+https://github.com/jamieduk/Burst-Transmitter
 
 
 ./transmit.sh "input-file.txt"
-
 
 ./receive.sh "input.wav"
   

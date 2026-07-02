@@ -65,7 +65,7 @@
 
 ## USAGE
 
-### TRANSMIT
+### Transmit & Recieve
 
 ```bash
 ./transmit.sh test.txt

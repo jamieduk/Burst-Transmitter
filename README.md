@@ -55,6 +55,8 @@
 
 ## FILES
 
+For encrypted version see https://github.com/jamieduk/Burst-Transmitter/tree/main/Encrypted-Version
+
 - transmit.sh
   Sends a file via WAV audio burst
 

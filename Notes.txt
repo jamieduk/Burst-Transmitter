@@ -2,9 +2,9 @@ Burst-Transmitter By (c) J~Net 2026
 
 https://github.com/jamieduk/Burst-Transmitter
 
+For encrypted version see https://github.com/jamieduk/Burst-Transmitter/tree/main/Encrypted-Version
 
 ./transmit.sh "input-file.txt"
-
 
 ./receive.sh "burst_max.wav"
   
